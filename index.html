@@ -9,8 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/bootstrap-datepicker3.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+
+    <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
 <header class=" header contenedor-xl">
@@ -172,6 +181,13 @@
         <h4 class="fw-bold">Compra de'entradas</h4>
         <p class="fs-5">Trieu una data</p>
 
+        <div class="input-group date">
+            <input type="text" class="form-control">
+            <span class="input-group-addon">
+                <i class="glyphicon glyphicon-th"></i>
+            </span>
+        </div>
+
         <div class="it-datepicker-wrapper">
             <div class="form-group">
                 <input class="form-control it-date-datepicker" id="date1" type="text" placeholder="inserisci la data in formato gg/mm/aaaa">
@@ -244,11 +260,13 @@
 </section>
 
 
-
-
-
-
-
+<script>
+    $(document).ready(function() {
+        $('.input-group.date').datepicker({
+            todayHighlight: true
+        });
+    });
+</script>
 
 </body>
 </html>
