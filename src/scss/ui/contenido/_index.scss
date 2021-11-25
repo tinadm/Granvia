@@ -1,0 +1,11 @@
+@forward "contenido";
+
+.quick-info {
+
+
+  .icono {
+    @include media-breakpoint-up(lg) {
+
+    }
+  }
+}

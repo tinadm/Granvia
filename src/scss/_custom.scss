@@ -1,0 +1,45 @@
+//rescribir variables de bootstrap
+
+$celeste: #94AFC9;
+$blu: #17538A;
+$oscuro: #212121;
+$blanco: #EEEEEE;
+$gris: #999999;
+
+
+
+//asignar paleta de colores a bootstrap
+
+
+$primary: $blu;
+$secondary: $celeste;
+$dark: $oscuro;
+
+
+
+
+//tipografia
+
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+
+
+//cards
+
+$card-border-color: transparent;
+
+
+// nav-link
+
+$nav-link-padding-x: 0;
+$nav-link-font-size: 1rem;
+$nav-link-color: $blu;
+$nav-link-font-weight: 400;
+//$nav-link-hover-color:  darken($blu, 10%);
+$nav-link-hover-border-color: $blu;
+
+// border
+
+//import bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
