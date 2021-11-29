@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es" xmlns="http://www.w3.org/1999/html">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GranVia Cine</title>
     <meta name="description" content="GranVia Cine">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,57 +11,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/bootstrap-datepicker3.min.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/granvia.css">
 
-
-    <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-<header class=" header contenedor-xl py-3">
-    <div class="row justify-content-around align-items-center">
-        <div class="col-md-4 p-0">
-            <a href="#"><img class="img-fluid" src="build/img/logo.jpeg.webp"></a>
+<header class=" header py-5">
+    <div class="row align-items-center justify-content-center">
+            <div class="col-md-3 col-9 mb-4 mb-md-0">
+                <a href="#">
+                    <img src="build/img/logo.jpeg" class="img-fluid" alt="imagen logo">
+                </a>
+            </div>
+            <div class=" col-12 col-md-9">
+                <nav class=" nav-principal navbar navbar-expand-md navbar-light mb-2 ">
+                    <button class="navbar-toggler " type="button" data-toggle="collapse"
+                            data-target="#nav_principal" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-column flex-sm-row justify-content-md-end text-center"
+                         id="nav_principal">
+                        <a href="#" class="nav-link bg-primary text-white mx-2 px-2 w-auto">Video
+                            & Shop</a>
+                        <a href="#" class="nav-link mx-2 ">Tienda</a>
+                        <a href="#" class="nav-link mx-2">Restaurantes</a>
+                        <a href="#" class="nav-link mx-2">Promocione</a>
+                        <a href="#" class="nav-link mx-2">Noticias</a>
+                        <a href="#" class="nav-link mx-2">Cine</a>
+                        <a href="#" class="nav-link mx-2 ">Actividades Infantile</a>
+                    </div>
+                </nav>
+            </div>
         </div>
-        <div class="col-md-8 mb-0">
-            <nav class="navegacion text-center d-md-flex gap-2 mt-3">
-
-                <a class="text-decoration-none nav-link fw-bold bg-primary text-white"
-                   href="https://www.videoandshop.com/GV2" alt=" video de video & shop">Video
-                    & Shop</a>
-
-                <a class="text-decoration-none nav-link fw-bold " href="#">Tienda</a>
-
-
-                <a class="text-decoration-none nav-link fw-bold" href="#">Restaurantes</a>
-
-                <a class="text-decoration-none nav-link fw-bold" href="#">Promocione</a>
-
-                <a class="text-decoration-none nav-link fw-bold" href="#">Noticias</a>
-
-                <a class="text-decoration-none nav-link fw-bold" href="#">Cine</a>
-
-                <a class="text-decoration-none nav-link fw-bold" href="#">Actividades Infantile</a>
-            </nav>
-        </div>
-
-    </div>
 </header>
-<section class="container-xl my-3 py-3">
-    <div class="hero">
-        <img class="img-fluid" src="build/img/foto3.jpeg" alt="imagen de sfondo">
-    </div>
-</section>
 
-<section class="container-xl my-3 py-3 ">
+    <div class="hero">
+        <img class="img-fluid" src="build/img/foto3.jpeg" alt="imagendesfondo">
+    </div>
+
+    <div class="container-xl my-3 py-3">
     <div class="d-md-flex ">
         <nav class=" col-md-8 navbar text-center px-3">
             <a class="nav-link text-decoration-none px-0">
@@ -93,25 +93,29 @@
         </div>
 
     </div>
-</section>
+    </div>
+    </div>
 
-<section class="container-fluid py-3">
+
+<section class="">
+    <div class="container-fluid py-3">
     <div class="contenido">
-        <h2 class="titulo text-center">¡EL DOMINGO 28 DE NOVIEMBRE ABRIMOS TODO EL CENTRO!</h2>
+        <h2 class="text-center">EL DOMINGO 28 DE NOVIEMBRE ABRIMOS TODO EL CENTRO</h2>
     </div>
     <div class="row">
         <div class=" foto py-3 col-md-6">
-            <img class="img-fluid" src="build/img/casa della carcasa.jpeg" alt="imagen black friday">
+            <img class="img-fluid" src="build/img/casadellacarcasa.jpeg" alt="imagenblackfriday">
         </div>
         <div class="foto py-3 col-md-6">
-            <img class="img-fluid" src="build/img/casa della carcasa.jpeg" alt="imagen black friday">
+            <img class="img-fluid" src="build/img/casadellacarcasa.jpeg" alt="imagenblackfriday">
         </div>
     </div>
-
+    </div>
 </section>
 
-<main class="container-xl py-3 my-3">
-    <h2 class=" fs-3 text-center my-3 ">INFORMACIÓ GRAN VIA 2</h2>
+<main class="">
+    <div class="container-xl py-3 my-3">
+    <h2 class=" fs-3 text-center mb-3 ">INFORMACIÓ GRAN VIA 2</h2>
     <div class="d-flex">
         <div class="col-md-4">
             <div class="card">
@@ -147,8 +151,9 @@
     </div>
 </main>
 
-<section class="container-xl py-3 mt-3">
-    <h2 class=" fs-3 text-center my-3 ">INFORMACIÓ GRAN VIA 2</h2>
+<section class="">
+    <div class="container-xl py-3 mt-3">
+    <h2 class=" fs-3 text-center mb-3 ">INFORMACIÓ GRAN VIA 2</h2>
     <div class="d-flex">
         <div class="col-md-6">
             <div class="card">
@@ -172,9 +177,11 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
 
-<section class="container-fluid mx-5">
+<section class="">
+    <div class="container-fluid mx-5">
     <div class="descripcion fs-4 w-50">
         <h4>El refugio</h4>
         <p>Una estrella del cine en horas bajas y un galán emergente (muy bien acompañado) que amenaza con desplazar al
@@ -183,24 +190,26 @@
             ganas de divertirse, pero también de descubrir secretos ocultos; un botones taciturno que todo lo ve; y un
             tremendo temporal que les dejará aislados días antes de Navidad... Un fin de semana en el que todo puede
             pasar... y en el que pasará de todo!</p>
-        <p><span class="fw-bold fs-5">Duracio</span>01:45</p>
-        <p><span class="fw-bold fs-5">Data d'estrena</span>26 de Novembre 2021</p>
-        <p><span class="fw-bold fs-5">Duracio</span>01:45</p>
+        <p><span class="fw-bold fs-5">Duracio</span> 01:45</p>
+        <p><span class="fw-bold fs-5">Data d'estrena</span> 26 de Novembre 2021</p>
+        <p><span class="fw-bold fs-5">Duracio</span> 01:45</p>
 
         <h4 class="fw-bold">Compra d'entradas</h4>
         <p class="fs-5">Trieu una data</p>
 
         <div class="input-group date">
-            <input type="text" class="form-control border-primary my-2">
+            <input type="text" class="form-control border-primary my-2 w-auto">
             <span class="input-group-addon">
                 <i class="glyphicon glyphicon-th"></i>
             </span>
         </div>
     </div>
+    </div>
 </section>
 
-<section class="container-xl eventos py-3">
-    <h2 class=" fs-3 text-center my-3 ">CINES FILMAX GRANVIA</h2>
+<section class="">
+    <div class="container-xl py-3">
+    <h2 class=" fs-3 text-center mb-3 ">CINES FILMAX GRANVIA</h2>
 
     <div class="row mt-4">
         <div class="col-md-6 col-lg-3">
@@ -259,150 +268,172 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
 
 
-<footer class="container-xl py-3">
-    <div class="row my-3 py-3">
-        <div class="col-sm-4 col-md-3">
-            <h2 class="mb-3 py-0 fw-bold">GRAN VIA 2</h2>
+<footer class="">
+    <div class="container-xl my-5">
+    <div class="row ">
+        <div class="col-sm-4 col-md-3 my-3">
+            <h2 class=" fw-bold">GRAN VIA 2</h2>
             <p>Av. de la Gran Via, 75<br>
                 08908 L'Hospitalet<br>
                 Barcelona</p>
-        <p>Punt d'Informació: 932 591 762.<br>
-            Gerència: 932 591 572.</p>
-        <button class="mx-3 btn-outline-dark w-auto"><a href="#" class="fs-5 text-decoration-none text-uppercase"></a>
-            Gerència: 932 591 572.
-        </button>
-    </div>
-
-    <div class="col-sm-4 col-md-3">
-        <h4 class="my-3 py-0">INFORMACIO</h4>
-        <ul class="list-unstyled">
-            <li>
-                <a class="first text-dark text-decoration-none" href="#">Serveis</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Mapa web</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Avís Legal</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Contacte</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Àrea Gran Via 2</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark last" href="#">Gestió de cookies</a>
-            </li>
-
-        </ul>
-    </div>
-
-    <div class="col-sm-4 col-md-3">
-        <h4 class="my-3 py-0">TOTES LES MARQUES
-        </h4>
-        <ul class="list-unstyled ">
-            <li>
-                <a class="first text-decoration-none text-dark" href="#">Moda Dona</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Infantil</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Esports</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Imatge Personal</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Cultura, oci, tecnologia</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Carrefour</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Botiga especialitzada</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Moda Home</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Íntima - Bany</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Sabateriesr</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Llar, Decoració i Regals</a>
-            </li>
-            <li>
-                <a class="text-decoration-none  text-dark" href="#">Serveis</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Joieries, Rellotgeries i Complements</a>
-            </li>
-            <li>
-                <a class="text-decoration-none text-dark" href="#">Alimentació</a>
-            </li>
-
-        </ul>
-    </div>
-
-    <div class="col-sm-12 col-md-3">
-        <h4>SEGUEIX-NOS</h4>
-        <ul class="social list-unstyled">
-            <li><a href="https://www.facebook.com" target="_blank">
-                <i class="bi bi-facebook fs-5"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com" target="_blank">
-                <i class="bi bi-instagram fs-5"></i></a>
-            </li>
-            <li><a  href="https://twitter.com" target="_blank">
-                <i class="bi bi-twitter fs-5"></i></a>
-            </li>
-        </ul>
-    </div>
-    </div>
-
-
-    <section class="container-xl ">
-        <div class="d-md-flex ">
-            <nav class=" col-md-8 navbar text-center px-3">
-                <a class="nav-link text-decoration-none px-0">
-                    <i class="bi bi-app d-block fs-3 "></i>
-                    Tiendas
-                </a>
-                <a class="nav-link text-decoration-none px-0">
-                    <i class="bi bi-watch d-block fs-3 "></i>
-                    Restaurates</a>
-                <a class="nav-link text-decoration-none">
-                    <i class="bi bi-person-badge d-block fs-3 "></i>
-                    Cine</a>
-                <a class="nav-link text-decoration-none">
-                    <i class="bi bi-person-fill d-block fs-3 "></i>
-                    Notocias</a>
-                <a class="nav-link text-decoration-none">
-                    <i class="bi bi-clock d-block fs-3"></i>
-                    Horarios</a>
-            </nav>
-
-
-            <div class=" quick-info bg-secondary d-flex align-items-center justify-content-center gap-2 fs-3 py-4  col-md-4">
-                <a href="#" class="icono d-flex px-3">
-                    <i class="bi bi-person-fill"></i>
-                    <i class="bi bi-arrow-right"></i>
-                    <i class="bi bi-person-fill"></i>
-                </a>
-                <span class="text-primary text-center fs-5">Como venir a visitarnos</span>
-            </div>
-
+            <p>Punt d'Informació: 932 591 762.<br>
+                Gerència: 932 591 572.</p>
+            <button class=" w-30 btn-outline-dark">
+                Gerència: 932 591 572.
+            </button>
         </div>
-    </section>
 
+        <div class="col-sm-4 col-md-3 my-3">
+            <h4>INFORMACIO</h4>
+            <ul class="list-unstyled">
+                <li>
+                    <a class="first text-dark text-decoration-none" href="#">Serveis</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Mapa web</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Avís Legal</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Contacte</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Àrea Gran Via 2</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark last" href="#">Gestió de cookies</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="col-sm-4 col-md-3 my-3">
+            <h4 class="">TOTES LES MARQUES
+            </h4>
+            <ul class="list-unstyled ">
+                <li>
+                    <a class="first text-decoration-none text-dark" href="#">Moda Dona</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Infantil</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Esports</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Imatge Personal</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Cultura, oci, tecnologia</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Carrefour</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Botiga especialitzada</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Moda Home</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Íntima - Bany</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Sabateriesr</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Llar, Decoració i Regals</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none  text-dark" href="#">Serveis</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Joieries, Rellotgeries i Complements</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-dark" href="#">Alimentació</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-3 my-3">
+            <h4>SEGUEIX-NOS</h4>
+            <ul class="social list-unstyled">
+                <li><a href="https://www.facebook.com" target="_blank">
+                    <i class="bi bi-facebook fs-5"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com" target="_blank">
+                    <i class="bi bi-instagram fs-5"></i></a>
+                </li>
+                <li><a href="https://twitter.com" target="_blank">
+                    <i class="bi bi-twitter fs-5"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
 </footer>
+
+    <div class="container-xl py-3">
+    <div class="d-md-flex ">
+        <nav class=" col-md-8 navbar text-center px-3">
+            <a class="nav-link text-decoration-none px-0">
+                <i class="bi bi-app d-block fs-3 "></i>
+                Tiendas
+            </a>
+            <a class="nav-link text-decoration-none px-0">
+                <i class="bi bi-watch d-block fs-3 "></i>
+                Restaurates</a>
+            <a class="nav-link text-decoration-none">
+                <i class="bi bi-person-badge d-block fs-3 "></i>
+                Cine</a>
+            <a class="nav-link text-decoration-none">
+                <i class="bi bi-person-fill d-block fs-3 "></i>
+                Notocias</a>
+            <a class="nav-link text-decoration-none">
+                <i class="bi bi-clock d-block fs-3"></i>
+                Horarios</a>
+        </nav>
+
+
+        <div class=" quick-info bg-secondary d-flex align-items-center justify-content-center gap-2 fs-3 py-4  col-md-4">
+            <a href="#" class="icono d-flex px-3">
+                <i class="bi bi-person-fill"></i>
+                <i class="bi bi-arrow-right"></i>
+                <i class="bi bi-person-fill"></i>
+            </a>
+            <span class="text-primary text-center fs-5">Como venir a visitarnos</span>
+        </div>
+
+    </div>
+    </div>
+<div class="social text-center d-md-flex text-decoration-none
+ justify-content-around bg-dark text-uppercase text-white p-2">
+    <a href="https://www.facebook.com">
+        <i class="fab fa-facebook-f"></i>
+        <p class="label-item">Facebook
+        </p>
+    </a>
+    <a href="https://www.instagram.com">
+        <i class="fab fa-instagram"></i>
+        <p class="label-item">Instagram
+        </p>
+    </a>
+    <a href="https:/newsletter/subscribe" >
+        <p class="label-item">Newsletter
+        </p>
+    </a>
+</div>
+
+
 
 <script>
     $(document).ready(function () {
@@ -410,6 +441,7 @@
             todayHighlight: true
         });
     });
+
 </script>
 
 </body>
